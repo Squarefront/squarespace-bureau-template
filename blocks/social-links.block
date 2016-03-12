@@ -1,0 +1,11 @@
+{.section website}
+  {.repeated section socialAccounts}<a href="{profileUrl}" target="_blank" class="sqs-svg-icon--wrapper {serviceName}" style="">
+      <div>
+        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+          <use class="sqs-use--background" xlink:href="/universal/svg/social-accounts.svg#background"></use>
+          <use class="sqs-use--icon" xlink:href="/universal/svg/social-accounts.svg#{serviceName}-icon"></use>
+          <use class="sqs-use--mask" xlink:href="/universal/svg/social-accounts.svg#{serviceName}-mask"></use>
+        </svg>
+      </div>
+    </a>{.end}
+{.end}
